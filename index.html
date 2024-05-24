@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+         
+        <h1 id="BMI">BMI Calculator</h1> 
+        <p>โปรแกรมคำนวนดัขนีมวลกาย
+            ออกแบบโปรแกรมโดย <mark><b>คุณ นพรัตน์ ชิณพงศ์</b></mark>
+        </p>        
+    </header>
+        <main id="mian">                        
+            <section id="wellcom">
+                <form>
+                <br>
+        
+            <label for="lasrname"><b>weight</b></label>
+            <input type="text" id="input_w" placeholder="กรอกนํ้าหนักของคุณ">
+
+            <br>
+            <br>
+
+            <label for="lasrname"><b>height</b></label>
+            <input type="text" id="input_h" placeholder="กรอกส่วนสูงของคุณ">
+
+            <button id="reset">ล้างข้อมูล</button>
+
+                </form>
+                <br>
+
+                <button  class="btn"onclick="bmi(document.getElementById('input_w').value , document.getElementById('input_h').value)">คลิกดูค่าBMIของคุณ</button>
+         
+            
+        
+            
+            <script src="app.js"></script>
+            
+
+             </section>
+        </main>  
+</body>
+</html>
